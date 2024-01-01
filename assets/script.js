@@ -101,10 +101,10 @@ function generatePassword() {
 //   // Conditional to check that the number that was entered is in range
 //   // If the user's input is out of range, either return out of the function or call the function again
   numOfCharacters = prompt("How many characters do you want? Choose between 8-128 characters");
-
-  (numOfCharacters < 8 || numOfCharacters > 128) ? "Please choose a valid number" 
-  : (isNaN(numOfCharacters)) ? numOfCharacters = prompt("Please enter a valid number") 
-  : alert(`Your password will be ${numOfCharacters} characters long.`);
+  
+  if (numOfCharacters > 7 || numOfCharacters < 129) {return alert ("Please choose a valid number") }
+  else if((isNaN(numOfCharacters))) { numOfCharacters = prompt("Please enter a valid number")} 
+  else{alert(`Your password will be ${numOfCharacters} characters long.`)}
  
 // Confirm which character sets to use
   Lowercase = confirm("Do you want lowercase?");
