@@ -15,6 +15,10 @@ To enhance security and user experience, the application includes an in-built va
 
 Upload index.html, license.txt, CSS and JS files to the deployed webserver.
 
+The deployed website linked was deployed using GitHub Pages. 
+
+[Link to the deployed website](https://john-991.github.io/password-generator/)
+
 ## Credits
 
 Collaborators on this project included staff, TAs, and students in the EDX Boot Camp 2023 cohort. 
